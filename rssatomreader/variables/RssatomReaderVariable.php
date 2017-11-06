@@ -32,7 +32,7 @@ class RssatomReaderVariable
      *
      *     {{ craft.rssatomReader.exampleVariable(twigValue) }}86400
      */
-    public function feed($url = null, $cache_duration = 86400, $timeout = 1000)
+    public function feed($url = null, $cache_duration = 86400, $timeout = 1)
     {
       if( file_exists(__DIR__.'/cache.txt') ){
         if( time() > (filemtime(__DIR__.'/cache.txt') + $cache_duration) ){
@@ -58,7 +58,7 @@ class RssatomReaderVariable
       curl_setopt($ch, CURLOPT_URL, $url);
       curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
       curl_setopt($ch, CURLOPT_CONNECTTIMEOUT ,0);
-      curl_setopt($ch, CURLOPT_TIMEOUT_MS, $timeout);
+      curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
 
       $data = curl_exec($ch);
       $info = curl_getinfo($ch);
