@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" version="2.0">
+  <channel>
+    <atom:link href="http://open.live.bbc.co.uk/weather/feeds/en/6296595/observations.rss" rel="self" type="application/rss+xml" />
+    <title>BBC Weather - Observations for  Jersey Airport, British Isles</title>
+    <link>http://www.bbc.co.uk/weather/6296595</link>
+    <description>Latest observations for Jersey Airport from BBC Weather, including weather, temperature and wind information</description>
+    <language>en</language>
+    <copyright>Copyright: (C) British Broadcasting Corporation, see http://www.bbc.co.uk/terms/additional_rss.shtml for more details</copyright>
+    <pubDate>Mon, 06 Nov 2017 15:34:14 +0000</pubDate>
+    <item>
+      <title>Monday - 15:00 GMT: Sunny Intervals, 12°C (54°F)</title>
+      <link>http://www.bbc.co.uk/weather/6296595</link>
+      <description>Temperature: 12°C (54°F), Wind Direction: South Westerly, Wind Speed: 6mph, Humidity: 64%, Pressure: 1026mb, Falling, Visibility: Moderate</description>
+      <pubDate>Mon, 06 Nov 2017 15:34:14 +0000</pubDate>
+      <guid isPermaLink="false">http://www.bbc.co.uk/weather/6296595-2017-11-06T15:34:14.000Z</guid>
+      <georss:point>49.20795 -2.19551</georss:point>
+    </item>
+  </channel>
+</rss>
+
