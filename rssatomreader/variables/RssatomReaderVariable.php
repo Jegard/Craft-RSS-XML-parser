@@ -63,7 +63,6 @@ class RssatomReaderVariable
       $data = curl_exec($ch);
       $info = curl_getinfo($ch);
 
-      var_dump($info['http_code']);
       if($info['http_code'] == 200) {
         file_put_contents(__DIR__.'/cache.txt',$data);
       }else{
